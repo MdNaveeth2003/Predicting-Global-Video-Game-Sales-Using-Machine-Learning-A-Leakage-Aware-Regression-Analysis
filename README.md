@@ -1,2 +1,3 @@
 # Predicting-Global-Video-Game-Sales-Using-Machine-Learning-A-Leakage-Aware-Regression-Analysis
-Predicting global video game sales using regression models (Linear, Ridge, Decision Tree, Random Forest, XGBoost) with full ML pipeline — cleaning, EDA, preprocessing, feature selection, and hyperparameter tuning.
+A complete regression pipeline built on the Video Game Sales dataset to predict Global Sales. Covers data cleaning (outlier removal, missing value imputation), exploratory data analysis, feature engineering, frequency and label encoding, SelectKBest feature selection, and StandardScaler preprocessing — all applied after train-test split to prevent data leakage. Five regression models are trained and compared (Linear Regression, Ridge, Decision Tree, Random Forest, XGBoost), with the best model further optimised using RandomizedSearchCV hyperparameter tuning.
+
